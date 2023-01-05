@@ -1,0 +1,17 @@
+#include<stdio.h>
+void main()
+{
+    int n,i,sum;
+    printf("Enter the number of elements\n");
+    scanf("%d",&n);
+    for(i=0,sum=0;i<=n;i++)
+    {
+    sum=sum+i;
+    }
+printf("Sum of natural numbers=%d\n",sum);
+}
+
+Output:
+Enter the number of elements
+4
+Sum of natural numbers=10

@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <math.h>
+void main()
+{
+    float P,T,R,CI;
+    printf("Enter the values of P,T,R:\n");
+    scanf("%f%f%f",&P,&T,&R);
+    CI=P*pow((1+R/100),T)-P;
+    printf("The compound interest=%g\n",CI);
+}
+
+
+Output:
+Enter the values of P,T,R:
+10 23 43
+The compound interest=37377.8

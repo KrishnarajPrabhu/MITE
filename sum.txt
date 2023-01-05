@@ -1,0 +1,17 @@
+#include<stdio.h>
+void main()
+{
+  int i,n,sum=0,num1,num2,num3;
+  float avg;
+  printf("Enter the values");
+  scanf("%d%d%d",&num1,&num2,&num3);
+  sum=num1+num2+num3;
+  avg=sum/3;
+  printf("Sum=%d\n",sum);
+  printf("Average=%g\n",avg);
+}
+
+Output
+Enter the values 3 3 3
+Sum=9
+Average=3

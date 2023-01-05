@@ -1,0 +1,18 @@
+#include<stdio.h>
+void main()
+{
+    int n;
+    printf("Enter the value of n:\n");
+    scanf("%d",&n);
+    printf(n%2==0?"Even number":"Not an even number");
+}
+
+
+Output:
+Enter the value of n:
+6
+Even number
+
+Enter the value of n:
+5
+Not an even number

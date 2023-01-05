@@ -1,0 +1,17 @@
+#include<stdio.h>
+void main()
+{
+    int n;
+    printf("Enter the value of n:\n");
+    scanf("%d",&n);
+    printf(n%2!=0?"Odd number":"Not an odd number");
+}
+
+OUTPUT:
+Enter the value of n:
+5
+Odd number
+
+Enter the value of n:
+8
+Not an odd number
